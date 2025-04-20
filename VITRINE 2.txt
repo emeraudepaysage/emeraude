@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emeraude Paysage - Pélissanne</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0d2b1e;
+      color: #fff;
+    }
+    header {
+      background: url('/mnt/data/PAGE PRESENTATION SOCIETE PAYSAGISTE.png') no-repeat center center/cover;
+      text-align: center;
+      padding: 6rem 2rem;
+      position: relative;
+    }
+    header::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.6);
+      z-index: 0;
+    }
+    header h1, header p, nav {
+      position: relative;
+      z-index: 1;
+    }
+    nav a {
+      color: #d9ffd6;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .section {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .services, .contact {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    .card {
+      background: #1c3e2c;
+      padding: 1rem;
+      margin: 1rem;
+      border-radius: 12px;
+      flex: 1 1 250px;
+    }
+    h1, h2 {
+      color: #a1f5b3;
+    }
+    footer p {
+      font-size: 0.9rem;
+      text-align: center;
+      background-color: #145c36;
+      padding: 1rem;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.7rem 1.5rem;
+      background-color: #27ae60;
+      color: #fff;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    ul li {
+      margin: 0.5rem 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Emeraude Paysage</h1>
+    <p>Créateur de jardins & espaces verts - Pélissanne</p>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#realisations">Réalisations</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="section" id="services">
+    <h2>Nos Services</h2>
+    <div class="services">
+      <div class="card">
+        <h3>Création</h3>
+        <p>Aménagement paysager, terrasses, allées et plus.</p>
+      </div>
+      <div class="card">
+        <h3>Entretien</h3>
+        <p>Taille, tonte, débroussaillage et soins des plantes.</p>
+      </div>
+      <div class="card">
+        <h3>Conseils</h3>
+        <p>Accompagnement sur-mesure pour sublimer vos extérieurs.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="realisations">
+    <h2>Nos Réalisations</h2>
+    <p>Photos avant/après à venir... Suivez-nous sur Instagram : <strong>@emeraude.paysage</strong></p>
+  </section>
+
+  <section class="section contact" id="contact">
+    <h2>Contact / Devis gratuit</h2>
+    <p>Pour toute demande de devis, n'hésitez pas à nous écrire ou appeler :</p>
+    <ul>
+      <li>📞 06 12 34 56 78</li>
+      <li>📧 contact@emeraude-paysage.fr</li>
+      <li>📍 Pélissanne & alentours</li>
+    </ul>
+    <a href="https://www.instagram.com/emeraude.paysage" class="btn" target="_blank">Voir sur Instagram</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Emeraude Paysage - Tous droits réservés.</p>
+  </footer>
+</body>
+</html>
